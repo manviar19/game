@@ -1,0 +1,21 @@
+body {
+    background-color: #030712;
+    color: #f3f4f6;
+    user-select: none;
+}
+
+canvas {
+    image-rendering: pixelated;
+}
+
+/* Custom Scrollbar for Leaderboard Table */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+    background: #1f2937;
+    border-radius: 9999px;
+}
